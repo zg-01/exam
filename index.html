@@ -31,9 +31,9 @@
 								<li class="dropdown-header">业务功能</li>
 								<li><a href="#">信息建立</a></li>
 								<li><a href="#">信息查询</a></li>
-								<li role="separator" class="divider"></li>
-								<li class="dropdown-header">信息管理</li>
-								<li><a href="#">系统功能</a></li>
+								<li><a href="#">信息管理</a></li>
+								<li role="separator" class="divider"></l>
+								<li class="dropdown-header"">系统功能</li>
 								<li><a href="#">设置</a></li>
 							</ul>
 						</li>
@@ -65,12 +65,12 @@
 				</div>
 				<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 					<h1 class="page-header">管理控制台</h1>
-					<button type="button" class="btn btn-default1">操作1</button>
-					<button type="button" class="btn btn-primary">操作2</button>
-					<button type="button" class="btn btn-success">操作3</button>
-					<button type="button" class="btn btn-info">操作4</button>
-					<button type="button" class="btn btn-warning">操作5</button>
-					<button type="button" class="btn btn-danger">操作6</button>
+					<button type="button" class="btn btn-lg">操作1</button>
+					<button type="button" class="btn btn-primary btn-lg">操作2</button>
+					<button type="button" class="btn btn-success btn-lg">操作3</button>
+					<button type="button" class="btn btn-info btn-lg">操作4</button>
+					<button type="button" class="btn btn-warning btn-lg">操作5</button>
+					<button type="button" class="btn btn-danger btn-lg">操作6</button>
 					<div class="row">
 						<div class="col-xs-12 col-sm-6">
 							<div class="panel panel-primary">
@@ -84,15 +84,30 @@
 						</div>
 						<div class="col-xs-12 col-sm-6">
 							<div class="panel panel-primary">
-								<div class="panel-heading">我的任务</div>
-								<ul class="nav nav-pills nav-stacked">
+								<div class="panel-heading">
+									<h3 class="panel-title">我的任务</h3>
+									</div>
 									<div class="panel-body">
-										<div class="alert alert-info" role="alert">订单审批<a href="#"><span class="badge" style="float: right;">42</span></a></div>
-										<div class="alert alert-info" role="alert">收款确认<a href="#"><span class="badge" style="float: right;">20</span></a></div>
-										<div class="alert alert-info" role="alert">付款确认<a href="#"><span class="badge" style="float: right;">10</span></a></div>
+								<ul class="nav nav-pills nav-stacked">
+									<li role="presentation" class="list-group">
+										<div class="alert list-group-item list-group-item-info" role="alert">
+											<a href="#"><span class="badge pull-right">42</span>订单审批</a>
+										</div>
+									</li>
+									<li role="presentation" class="list-group">
+										<div class="alert list-group-item list-group-item-info" role="alert">
+											<a href="#"><span class="badge pull-right">20</span>收款确认</a>
+										</div>
+									</li>
+									<li role="presentation" class="list-group">
+										<div class="alert list-group-item list-group-item-info" role="alert">
+											<a href="#"><span class="badge pull-right">10</span>付款确认</a>
+										</div>
+									</li>
 								</ul>
 							</div>
 						</div>
+					</div>
 					</div>
 					<div class="row">
 						<div class="col-xs-12 col-sm-6">
@@ -103,7 +118,7 @@
 										<thead>
 											<tr>
 												<th>#</th>
-												<th>产品</th>
+												<th>产品</th>												
 												<th>数量</th>
 												<th>总金额</th>
 												<th>业务员</th>
@@ -133,7 +148,7 @@
 											</tr>
 										</tbody>
 									</table>
-									<button type="button" class="btn btn-primary">查看详细&raquo;</span></button>
+									<button type="button" class="btn btn-primary">查看详细&raquo;</button>
 								</div>
 							</div>
 						</div>
